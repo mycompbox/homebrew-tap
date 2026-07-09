@@ -6,14 +6,14 @@ The public Homebrew tap for **[CompBox](https://mycompbox.web.app)** — install
 
 ```bash
 brew tap mycompbox/tap
+brew trust mycompbox/tap    # one-time: Homebrew requires trusting third-party taps
 brew install compbox
 ```
 
-or in one line:
-
-```bash
-brew install mycompbox/tap/compbox
-```
+The `brew trust` step is a one-time Homebrew security confirmation for any
+third-party tap — you only do it once per machine. (Depending on your Homebrew
+version, `brew install` may instead prompt you to trust the tap; either way,
+confirm it.)
 
 ## Set up this machine
 
