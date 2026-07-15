@@ -46,7 +46,7 @@ class CompboxAT18 < Formula
   url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.8.0/compbox-macos.tar.gz"
   version "1.8.0"
   sha256 "01066ed4f8818c7dbfeef2a9a95b0e8926c898fc21604030ca82b46512e4654a"
-  license "UNLICENSED"
+  license :cannot_represent
 
   depends_on "node"
 
