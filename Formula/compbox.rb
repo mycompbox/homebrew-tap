@@ -43,9 +43,9 @@ class Compbox < Formula
   # release asset. The version/url/sha256 are rewritten by scripts/bump-formula.mjs
   # at release time (see the versioning note above); do NOT hand-edit them.
   # Stanza order (url → version → sha256) follows Homebrew's ComponentsOrder cop.
-  url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.11.1/compbox-macos.tar.gz"
-  version "1.11.1"
-  sha256 "472fe2abfb0fa73721311875c5912c3a5af3b1529b2226ff0495da11b0837d81"
+  url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.11.2/compbox-macos.tar.gz"
+  version "1.11.2"
+  sha256 "e953f2286f829ecef58ad593a8208fee5b0d023eeb14e40fb3f583a92d2fdbdb"
   license :cannot_represent
 
   depends_on "node"
