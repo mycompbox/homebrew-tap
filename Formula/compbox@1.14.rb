@@ -36,7 +36,7 @@
 #   compbox login && compbox configure
 #   brew services start compbox   # registers + starts the launchd service
 
-class Compbox < Formula
+class CompboxAT114 < Formula
   desc "Pair a machine, manage Skill Packs, and run the CompBox Agent Runner daemon"
   homepage "https://mycompbox.web.app"
   # PLACEHOLDER — the url points at the single arch-neutral `compbox-macos.tar.gz`
