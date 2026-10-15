@@ -38,14 +38,14 @@
 
 class Compbox < Formula
   desc "Pair a machine, manage Skill Packs, and run the CompBox Agent Runner daemon"
-  homepage "https://mycompbox.web.app"
+  homepage "https://mycompbox.com"
   # PLACEHOLDER — the url points at the single arch-neutral `compbox-macos.tar.gz`
   # release asset. The version/url/sha256 are rewritten by scripts/bump-formula.mjs
   # at release time (see the versioning note above); do NOT hand-edit them.
   # Stanza order (url → version → sha256) follows Homebrew's ComponentsOrder cop.
-  url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.18.0/compbox-macos.tar.gz"
-  version "1.18.0"
-  sha256 "3a29815640ee4d49bab6d43aa715be6b891e1dcfc64473c2c0dd2c245b6791da"
+  url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.19.0/compbox-macos.tar.gz"
+  version "1.19.0"
+  sha256 "1d9957668f7fbdbff7673ebc87020d4faf783a63b610d7b3004d0f65f490f973"
   license :cannot_represent
 
   depends_on "node"
