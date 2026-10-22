@@ -45,7 +45,7 @@ class CompboxAT121 < Formula
   # Stanza order (url → version → sha256) follows Homebrew's ComponentsOrder cop.
   url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.21.5/compbox-macos.tar.gz"
   version "1.21.5"
-  sha256 "21972579f720ed12e81cb071b95d2a0108fab716547e6c49dce944fced14ffe0"
+  sha256 "71eba09c6f05e4db7e5a874aefa4ac82c5cbe47d7640017d0615b38eb8c2e037"
   license :cannot_represent
 
   depends_on "node"
