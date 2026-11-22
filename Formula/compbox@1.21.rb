@@ -43,9 +43,9 @@ class CompboxAT121 < Formula
   # release asset. The version/url/sha256 are rewritten by scripts/bump-formula.mjs
   # at release time (see the versioning note above); do NOT hand-edit them.
   # Stanza order (url → version → sha256) follows Homebrew's ComponentsOrder cop.
-  url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.21.19/compbox-macos.tar.gz"
-  version "1.21.19"
-  sha256 "5bbacd8de0b4999ca36908583df0047e32ac3f76cf195c078881d0f3f80e2923"
+  url "https://github.com/mycompbox/homebrew-tap/releases/download/cli-v1.21.20/compbox-macos.tar.gz"
+  version "1.21.20"
+  sha256 "9457b65838f8dfc943493131a6cf34052fcf11de9ec48904641db82f6b5d6ed5"
   license :cannot_represent
 
   depends_on "node"
@@ -58,6 +58,8 @@ class CompboxAT121 < Formula
     # (node #{libexec}/compbox-mcp.cjs) instead of fetching via npx.
     libexec.install "compbox.cjs"
     libexec.install "compbox-mcp.cjs"
+    # Built-in planner/orchestrator agents (ER-213); the CLI looks for libexec/agents.
+    libexec.install "agents"
     # Thin wrapper so `compbox` on PATH just delegates to `node compbox.cjs`.
     (bin/"compbox").write <<~SH
       #!/bin/bash
